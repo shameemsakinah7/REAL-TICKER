@@ -87,7 +87,7 @@ Follow these detailed steps to set up and run RealTicker locally. Ensure you hav
 - **Model**: HuggingFace Transformers GPT-2 (open-source, lightweight).
 - **Purpose**: Generates natural language responses for stock analysis based on computed metrics (trend, risk, action).
 - **Integration**: In `backend/llm_analyzer.py`, computes trend from price changes, risk from volatility, and action logic. GPT-2 enhances with text generation but prioritizes data-driven results for accuracy.
-- **Why GPT-2?**: Free, fast, and compliant with hackathon requirements. Easily upgradable to GPT-3.5 or Llama for production.
+- **Why GPT-2?**: Free, fast, and compliant. Easily upgradable to GPT-3.5 or Llama for production.
 - **Prompt Example**: "Analyze the following 6 months stock price data: [prices]. Identify trend, volatility, and provide investment guidance for a beginner."
 - **Output**: Trend (Upward/Downward/Sideways), Risk Level (Low/Medium/High), Suggested Action (e.g., "Long-term investment").
 
